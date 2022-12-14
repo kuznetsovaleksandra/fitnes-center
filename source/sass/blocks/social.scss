@@ -1,0 +1,19 @@
+.social {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 11px;
+    flex-grow: 0;
+
+    @include vp-767 {
+      justify-content: flex-start;
+    }
+  }
+
+  .social__link {
+    line-height: 0;
+
+    @include hover-focus {
+      opacity: 0.8;
+    }
+  }

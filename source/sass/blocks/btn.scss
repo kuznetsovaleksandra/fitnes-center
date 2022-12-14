@@ -1,14 +1,22 @@
 .btn {
   display: inline-flex;
   padding: 10px 20px;
-
+  vertical-align: middle;
+  align-items: center;
+  justify-content: center;
   color: $color-default-white;
-
-  background-color: $color-neon-blue;
+  font-family: $ff-roboto-condensed;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 9px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: $color-default-white;
+  // background-color: $color-neon-blue;
   border: none;
   cursor: pointer;
-
   transition: opacity $trans-default;
+  user-select: none;
 
   &--red {
     background-color: $color-torch-red;

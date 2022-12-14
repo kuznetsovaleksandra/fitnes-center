@@ -1,5 +1,9 @@
 import {iosVhFix} from './utils/ios-vh-fix';
 import {initModals} from './modules/modals/init-modals';
+import {initVideo} from './modules/video';
+import {changeTab} from './modules/tabs.js';
+import {startSliders} from './modules/slider.js';
+import {form} from './modules/form.js';
 
 // ---------------------------------
 
@@ -9,6 +13,10 @@ window.addEventListener('DOMContentLoaded', () => {
   // ---------------------------------
 
   iosVhFix();
+  initVideo();
+  changeTab();
+  startSliders();
+  form();
 
   // Modules
   // ---------------------------------

@@ -1,0 +1,252 @@
+.actions {
+    padding-top: 149px;
+    padding-bottom: 117px;
+
+    @include vp-1199 {
+      padding: 92px 0;
+    }
+
+    @include vp-767 {
+      padding-top: 64px;
+      padding-bottom: 64px;
+    }
+
+    h2 {
+      margin: 0 0 34px;
+      font-family: $ff-alumni-sans;
+      font-weight: 600;
+      font-size: 54px;
+      line-height: 65px;
+      letter-spacing: 0.03em;
+
+      @include vp-1199 {
+        margin-bottom: 40px;
+        padding-right: 10px;
+        font-size: 42px;
+        line-height: 50px;
+      }
+
+      @include vp-767 {
+        margin-bottom: 42px;
+        padding-right: 5px;
+        font-size: 32px;
+        line-height: 38px;
+      }
+    }
+  }
+
+  .actions__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .actions__content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+
+    @include vp-1199 {
+      grid-template-columns: 1fr;
+      gap: 30px;
+    }
+  }
+
+  .actions__main-card {
+    display: grid;
+    grid-template-columns: 1fr 280px;
+    height: 462px;
+
+    @include vp-1199 {
+      grid-template-columns: 1fr 399px;
+    }
+
+    @include vp-767 {
+      grid-template-columns: 1fr;
+      height: auto;
+    }
+
+    img {
+      height: 100%;
+      object-fit: cover;
+      object-position: 33% 50%;
+
+      @include vp-1199 {
+        aspect-ratio: 399 / 462;
+        object-position: 50% top;
+      }
+
+      @include vp-767 {
+        width: 100%;
+        aspect-ratio: 290 / 299;
+        object-position: 50% 8%;
+      }
+    }
+  }
+
+  .actions__main-card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    overflow-y: auto;
+    padding: 34px 45px;
+    color: $color-default-white;
+    background-color: $color-torch-red;
+
+    @include vp-767 {
+      align-items: center;
+      min-height: 299px;
+    }
+
+    h3 {
+      margin: 0;
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 156%;
+    }
+
+    b {
+      display: block;
+      margin-bottom: 23px;
+      font-weight: 700;
+      font-size: 70px;
+      line-height: 87%;
+
+      @include vp-767 {
+        margin-bottom: 17px;
+      }
+    }
+
+    p {
+      margin: 0 0 20px;
+      font-size: 18px;
+      line-height: 140%;
+
+      @include vp-767 {
+        text-align: center;
+      }
+    }
+
+    a {
+      margin-bottom: 12px;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: $color-default-white;
+
+      @include hover-focus {
+        opacity: 0.8;
+      }
+
+      @include focus {
+        outline: none;
+      }
+    }
+
+    span {
+      border-bottom: 1px solid $color-default-white;
+    }
+  }
+
+  .focus-visible {
+    span {
+      outline: -webkit-focus-ring-color auto 1px;
+    }
+  }
+
+  .events__main-card-text-wrapper {
+    @include vp-767 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  .actions__card-wrapper {
+    @include vp-1199 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+    }
+
+    @include vp-767 {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .actions__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 211px;
+    padding: 18px 28px;
+    color: $color-resolution-blue;
+    border: 7px solid transparent;
+    border-image: $red-to-blue 1;
+
+    @include vp-767 {
+      align-items: center;
+      padding: 29px 28px;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 40px;
+
+      @include vp-1199 {
+        margin-bottom: 0;
+      }
+    }
+
+    h3 {
+      margin: 0 0 3px;
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 150%;
+
+      @include vp-1199 {
+        margin-bottom: 4px;
+      }
+    }
+
+    p {
+      margin: 0 0 20px;
+      line-height: 140%;
+
+      @include vp-767 {
+        text-align: center;
+      }
+    }
+
+    a {
+      margin-bottom: 11px;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 14px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: $color-resolution-blue;
+
+      @include hover-focus {
+        opacity: 0.8;
+      }
+
+      @include focus {
+        outline: none;
+      }
+    }
+
+    span {
+      border-bottom: 1px solid $color-resolution-blue;
+    }
+  }
+
+  .actions__card-text {
+    @include vp-767 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
