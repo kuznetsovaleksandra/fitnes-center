@@ -1980,18 +1980,18 @@ button,
   margin: 11px 6px 17px 0;
 }
 
-.subscription--JS .subscription__tab-title-list {
+.subscription--JS .subscription__title-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.subscription--JS .subscription__tab-list {
+.subscription--JS .subscription__list {
   display: none;
   margin-bottom: 0;
 }
 
-.subscription--JS .subscription__tab-list--active {
+.subscription--JS .subscription__list--active {
   display: -ms-grid;
   display: grid;
 }
