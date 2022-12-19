@@ -38,7 +38,7 @@ const startSliders = () => {
     const coachsButtonPrev = document.querySelector('.coaches__slider-button-prev');
     const coachsButtonNext = document.querySelector('.coaches__slider-button-next');
 
-    coachsWrapper.classList.add('swiper');
+    coachsWrapper.classList.add('swiper-wrapper');
     coachsWrapper.classList.remove('coaches__swiper');
     coachsButtonPrev.style.display = 'block';
     coachsButtonNext.style.display = 'block';
@@ -87,7 +87,7 @@ const startSliders = () => {
     const reviewsButtonPrev = document.querySelector('.reviews__slider-button-prev');
     const reviewsButtonNext = document.querySelector('.reviews__slider-button-next');
 
-    reviewsWrapper.classList.add('swiper');
+    reviewsWrapper.classList.add('swiper-wrapper');
     reviewsWrapper.classList.remove('reviews__swiper-wrapper');
     reviewsButtonPrev.style.display = 'block';
     reviewsButtonNext.style.display = 'block';
