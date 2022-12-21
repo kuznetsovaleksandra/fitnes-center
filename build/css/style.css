@@ -1298,7 +1298,7 @@ button.swiper-pagination-bullet {
   font-weight: 800;
   font-family: "Alumni Sans";
   font-display: swap;
-  src: url("../fonts/Alumni-sans-ExtraBold.woff2") format("woff2"), url("../fonts/AlumniSans-ExtraBold.woff") format("woff");
+  src: url("../fonts/AlumniSans-ExtraBold.woff2") format("woff2"), url("../fonts/AlumniSans-ExtraBold.woff") format("woff");
 }
 
 *,
@@ -1727,7 +1727,6 @@ button,
 .about__wrapper-img img {
   -o-object-fit: none;
   object-fit: none;
-  margin-top: -36px;
 }
 
 .about__video {
@@ -2612,7 +2611,7 @@ button,
 }
 
 .promo h2 {
-  margin: 4px 0 0 3px;
+  margin: 4px 18px 0px 3px;
   padding-right: 52px;
   font-family: "Alumni Sans", "Arial", sans-serif;
   font-weight: 600;
@@ -2844,7 +2843,7 @@ button,
   font-size: 54px;
   line-height: 65px;
   letter-spacing: 0.03em;
-  margin: 11px 6px -10px 0;
+  margin: -16px 6px 16px 0;
 }
 
 .subscription--JS .subscription__title-list {
