@@ -1544,7 +1544,6 @@ button,
   line-height: 9px;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: #ffffff;
   border: none;
   cursor: pointer;
   -webkit-transition: opacity 0.3s ease;
@@ -2010,7 +2009,7 @@ button,
 }
 
 .advantages__list:last-child,
-.advantages__list:nth-last-child(2) {
+.advantages__list:nth-last-child(2n) {
   border: none;
   margin: 0;
   padding-bottom: 0;
