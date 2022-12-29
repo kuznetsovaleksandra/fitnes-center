@@ -1,7 +1,7 @@
 .promo {
   h2 {
-    // margin: 4px 0 0 3px;
-    margin: 4px 18px 0 3px;
+    margin: 4px 0 0 3px;
+    // margin: 4px 18px 0 3px;
     padding-right: 52px;
     font-family: $ff-alumni-sans;
     font-weight: 600;
@@ -13,7 +13,7 @@
     @include vp-1199 {
       font-size: 48px;
       margin-left: 6px;
-      padding-right: 35px;
+      padding: 0;
     }
   }
 
@@ -97,7 +97,8 @@
   }
 
   @include vp-767 {
-    grid-template-columns: minmax(10px, 442px);
+    // grid-template-columns: minmax(10px, 442px);
+    grid-template-columns: 1fr;
     justify-content: center;
     margin-top: 70px;
     overflow: hidden;
@@ -107,26 +108,27 @@
 .promo__content {
   display: flex;
   flex-direction: column;
-  height: 500px;
-  overflow-y: auto;
+  // height: 500px;
+  // overflow-y: auto;
   padding: 82px 76px 85px;
   color: $color-default-white;
   background-color: $color-torch-red;
 
   @include vp-1199 {
     justify-content: space-between;
-    height: auto;
+    // height: auto;
     padding: 47px 44px 50px;
   }
 }
 
 .promo__date {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
 
-  @include vp-1199 {
-    justify-content: space-between;
-  }
+  // @include vp-1199 {
+  //   justify-content: space-between;
+  // }
 }
 
 .promo__btn {

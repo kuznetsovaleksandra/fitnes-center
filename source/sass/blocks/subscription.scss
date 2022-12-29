@@ -19,7 +19,7 @@
     line-height: 65px;
     letter-spacing: 0.03em;
     // margin: 11px 6px -10px 0;
-    margin: -16px 6px 16px 0;
+    margin: 11px 6px 16px 0;
 
     @include vp-1199 {
       margin: 11px 16px 20px 0;
@@ -106,7 +106,7 @@
     }
 
     @include vp-767 {
-      padding: 0 0 14px;
+      padding: 0 0 2px;
       font-size: 16px;
     }
 
@@ -190,12 +190,13 @@
   }
 
   dd {
-    margin: 0 0 83px;
+    // margin: 0 0 83px;
+    margin: 0 0 89px;
     color: $color-chambray;
     z-index: 1;
 
     @include vp-767 {
-      margin-bottom: 69px;
+      margin-bottom: 73px;
     }
   }
 
@@ -210,7 +211,7 @@
 
     @include vp-767 {
       margin-left: 7px;
-      margin-bottom: 48px;
+      margin-bottom: 50px;
       font-size: 48px;
       line-height: 33px;
     }

@@ -59,19 +59,21 @@
   display: grid;
   grid-template-columns: 1fr 723px;
   margin-top: 120px;
-  margin-bottom: 262px;
+  // margin-bottom: 262px;
+  margin-bottom: 235px;
 
   @include vp-1199 {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 100px;
-    margin-bottom: 204px;
+    margin-bottom: 183px;
   }
 
   @include vp-767 {
     margin-top: 64px;
-    margin-bottom: 88px;
+    // margin-bottom: 88px;
+    margin-bottom: 70px;
     padding: 0;
   }
 }
@@ -117,11 +119,11 @@
 
     img {
       max-width: none;
-      width: 770px;
-      height: 401px;
+      width: 678px;
+      height: 345px;
       object-fit: fill;
-      margin-left: -92px;
-      margin-top: -20px;
+      margin-left: 0px;
+      margin-top: 0px;
     }
   }
 
@@ -144,7 +146,8 @@
   position: absolute;
   width: 364px;
   height: 228px;
-  bottom: -115px;
+  // bottom: -115px;
+  top: 288px;
   right: 399px;
   cursor: pointer;
 
@@ -210,7 +213,8 @@
   @include vp-1199 {
     width: 266px;
     height: 167px;
-    bottom: -83px;
+    // bottom: -83px;
+    top: 488px;
     right: calc(32% + 5px);
 
     iframe {
@@ -242,6 +246,13 @@
     iframe {
       width: 100%;
       height: 100%;
+    }
+
+    button {
+      width: 73px;
+      height: 73px;
+      top: calc(50% - 525px);
+      left: calc(50% - 36px);
     }
   }
 }

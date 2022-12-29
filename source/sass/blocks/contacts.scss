@@ -108,8 +108,9 @@
   margin-bottom: 69px;
   font-size: 14px;
   line-height: 16px;
-  border-width: 3px;
-  background-color: $color-neon-blue;
+  // border-width: 3px;
+  border: 3px solid $color-default-white;
+  // background-color: $color-neon-blue;
 
   @include vp-1199 {
     width: 474px;
