@@ -92,6 +92,7 @@
   align-items: flex-start;
   justify-content: space-between;
   margin-bottom: 1px;
+  gap: 30px;
 
   @include vp-1199 {
     // align-items: center;

@@ -9,13 +9,16 @@
   @include vp-1199 {
     margin-top: 101px;
     margin-bottom: 100px;
-    padding: 0 101px;
+    // padding: 0 101px;
+    padding: 0 56px;
+    max-width: 678px;
   }
 
   @include vp-767 {
     margin-top: 64px;
     margin-bottom: 70px;
     padding: 0 47px;
+    max-width: 332px;
   }
 
   h2 {
@@ -77,14 +80,22 @@
     width: 226px;
     height: 274px;
   }
+}
 
-  img {
-    // width: 100%;
-    height: 100%;
-    object-fit: cover;
-    background-color: $color-grey;
+.coaches__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  @include vp-1199 {
+    max-height: 294px;
+  }
+
+  @include vp-767 {
+    min-height: 274px;
   }
 }
+
 
 .coaches__slide-content {
   position: absolute;
@@ -213,7 +224,8 @@
   left: 45px;
 
   @include vp-1199 {
-    left: 44px;
+    // left: 44px;
+    left: -4px;
   }
 
   @include vp-767 {
@@ -229,7 +241,8 @@
   right: 45px;
 
   @include vp-1199 {
-    right: 44px;
+    // right: 44px;
+    right: -4px;
   }
 
   @include vp-767 {

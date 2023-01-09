@@ -223,7 +223,7 @@
           </picture>
         </div>
       </section>
-      <section class="coaches" id="coaches">
+      <section class="coaches container" id="coaches">
         <h2>Тренеры</h2>
         <div class="swiper-button-prev coaches__slider-button-prev"></div>
         <div class="swiper coaches__slider">
@@ -240,9 +240,14 @@
                   </ul>
                 </div>
                 <picture>
-                  <source srcset="img/coaches/coach-1.webp 1x, img/coaches/coach-1@2x.webp 2x" type="image/webp">
-                  <img src="img/coaches/coach-1.jpg" srcset="img/coaches/coach-1@2x.jpg" alt="Фото тренера" width="260"
-                    height="294" loading="lazy">
+                  <source srcset="img/coaches/coach-1.webp 1x, img/coaches/coach-1@2x.webp 2x" type="image/webp"
+                    media="(max-width 320px)">
+                  <source srcset="img/coaches/coach-1.webp 1x, img/coaches/coach-1@2x.webp 2x" type="image/webp"
+                    media="(max-width 1023px)">
+                  <source srcset="img/coaches/coach-1.webp 1x, img/coaches/coach-1@2x.webp 2x" type="image/webp"
+                    media="(max-width 1024px)">
+                  <img class="coaches__image" class="coaches_image" src="img/coaches/coach-1.jpg"
+                    srcset="img/coaches/coach-1@2x.jpg" alt="Фото тренера" width="260" height="294" loading="lazy">
                 </picture>
               </div>
             </div>
@@ -259,8 +264,8 @@
                 </div>
                 <picture>
                   <source srcset="img/coaches/coach-2.webp 1x, img/coaches/coach-2@2x.webp 2x" type="image/webp">
-                  <img src="img/coaches/coach-2.jpg" srcset="img/coaches/coach-2@2x.jpg" alt="Фото тренера" width="260"
-                    height="294" loading="lazy">
+                  <img class="coaches__image" class="coaches_image" src="img/coaches/coach-2.jpg"
+                    srcset="img/coaches/coach-2@2x.jpg" alt="Фото тренера" width="260" height="294" loading="lazy">
                 </picture>
               </div>
             </div>
@@ -277,8 +282,31 @@
                 </div>
                 <picture>
                   <source srcset="img/coaches/coach-3.webp 1x, img/coaches/coach-3@2x.webp 2x" type="image/webp">
-                  <img src="img/coaches/coach-3.jpg" srcset="img/coaches/coach-3@2x.jpg" alt="Фото тренера" width="260"
-                    height="294" loading="lazy">
+                  <img class="coaches__image" class="coaches_image" src="img/coaches/coach-3.jpg"
+                    srcset="img/coaches/coach-3@2x.jpg" alt="Фото тренера" width="260" height="294" loading="lazy">
+                </picture>
+              </div>
+            </div>
+            <div class="swiper-slide coaches__slide">
+              <div class="coaches__slide">
+                <div class="coaches__slide-content" tabindex="0">
+                  <h3>Мария Кетова</h3>
+                  <p>CrossFit</p>
+                  <ul>
+                    <li>Certified Level&nbsp;3 Trainer</li>
+                    <li>Победитель чемпионата России по&nbsp;CrossFit</li>
+                    <li>Опыт&nbsp;&mdash; 6&nbsp;лет</li>
+                  </ul>
+                </div>
+                <picture>
+                  <source srcset="img/coaches/coach-4.webp 1x, img/coaches/coach-4@2x.webp 2x" type="image/webp"
+                    media="(max-width 320px)">
+                  <source srcset="img/coaches/coach-4.webp 1x, img/coaches/coach-4@2x.webp 2x" type="image/webp"
+                    media="(max-width 1023px)">
+                  <source srcset="img/coaches/coach-4.webp 1x, img/coaches/coach-4@2x.webp 2x" type="image/webp"
+                    media="(max-width 1024px)">
+                  <img class="coaches__image" src="img/coaches/coach-4.jpg" srcset="img/coaches/coach-4@2x.jpg"
+                    alt="Фото тренера" width="260" height="294" loading="lazy">
                 </picture>
               </div>
             </div>
@@ -295,8 +323,8 @@
                 </div>
                 <picture>
                   <source srcset="img/coaches/coach-4.webp 1x, img/coaches/coach-4@2x.webp 2x" type="image/webp">
-                  <img src="img/coaches/coach-4.jpg" srcset="img/coaches/coach-4@2x.jpg" alt="Фото тренера" width="260"
-                    height="294" loading="lazy">
+                  <img class="coaches__image" src="img/coaches/coach-4.jpg" srcset="img/coaches/coach-4@2x.jpg"
+                    alt="Фото тренера" width="260" height="294" loading="lazy">
                 </picture>
               </div>
             </div>
@@ -313,8 +341,8 @@
                 </div>
                 <picture>
                   <source srcset="img/coaches/coach-4.webp 1x, img/coaches/coach-4@2x.webp 2x" type="image/webp">
-                  <img src="img/coaches/coach-4.jpg" srcset="img/coaches/coach-4@2x.jpg" alt="Фото тренера" width="260"
-                    height="294" loading="lazy">
+                  <img class="coaches__image" src="img/coaches/coach-4.jpg" srcset="img/coaches/coach-4@2x.jpg"
+                    alt="Фото тренера" width="260" height="294" loading="lazy">
                 </picture>
               </div>
             </div>
@@ -331,8 +359,8 @@
                 </div>
                 <picture>
                   <source srcset="img/coaches/coach-4.webp 1x, img/coaches/coach-4@2x.webp 2x" type="image/webp">
-                  <img src="img/coaches/coach-4.jpg" srcset="img/coaches/coach-4@2x.jpg" alt="Фото тренера" width="260"
-                    height="294" loading="lazy">
+                  <img class="coaches__image" src="img/coaches/coach-4.jpg" srcset="img/coaches/coach-4@2x.jpg"
+                    alt="Фото тренера" width="260" height="294" loading="lazy">
                 </picture>
               </div>
             </div>
@@ -349,26 +377,8 @@
                 </div>
                 <picture>
                   <source srcset="img/coaches/coach-4.webp 1x, img/coaches/coach-4@2x.webp 2x" type="image/webp">
-                  <img src="img/coaches/coach-4.jpg" srcset="img/coaches/coach-4@2x.jpg" alt="Фото тренера" width="260"
-                    height="294" loading="lazy">
-                </picture>
-              </div>
-            </div>
-            <div class="swiper-slide coaches__slide">
-              <div class="coaches__slide">
-                <div class="coaches__slide-content" tabindex="0">
-                  <h3>Мария Кетова</h3>
-                  <p>CrossFit</p>
-                  <ul>
-                    <li>Certified Level&nbsp;3 Trainer</li>
-                    <li>Победитель чемпионата России по&nbsp;CrossFit</li>
-                    <li>Опыт&nbsp;&mdash; 6&nbsp;лет</li>
-                  </ul>
-                </div>
-                <picture>
-                  <source srcset="img/coaches/coach-4.webp 1x, img/coaches/coach-4@2x.webp 2x" type="image/webp">
-                  <img src="img/coaches/coach-4.jpg" srcset="img/coaches/coach-4@2x.jpg" alt="Фото тренера" width="260"
-                    height="294" loading="lazy">
+                  <img class="coaches__image" src="img/coaches/coach-4.jpg" srcset="img/coaches/coach-4@2x.jpg"
+                    alt="Фото тренера" width="260" height="294" loading="lazy">
                 </picture>
               </div>
             </div>
@@ -449,38 +459,38 @@
           </div>
         </div>
       </section>
-      <section class="reviews">
-        <div class="reviews__wrapper container">
-          <h2>Отзывы</h2>
-          <div class="reviews__slider-wrapper">
-            <div class="swiper reviews__slider">
-              <div class="reviews__swiper-wrapper">
-                <div class="swiper-slide reviews__slide">
-                  <picture>
-                    <source srcset="img/reviews.webp 1x, img/reviews@2x.webp 2x" type="image/webp">
-                    <img src="img/reviews.png" srcset="img/reviews@2x.png" alt="Фото клиента" width="80" height="80"
-                      loading="lazy">
-                  </picture>
-                  <h3>Анна Орлова</h3>
-                  <p>&laquo;Хожу в&nbsp;SuperClub уже больше года. Нравится, что в&nbsp;клубе всегда чисто, тренажеры
-                    обновляют, персонал дружелюбный. Зал просторный, даже в&nbsp;вечернее время нет очередей&raquo;</p>
-                </div>
-                <div class="swiper-slide reviews__slide">
-                  <picture>
-                    <source srcset="img/reviews.webp 1x, img/reviews@2x.webp 2x" type="image/webp">
-                    <img src="img/reviews.png" srcset="img/reviews@2x.png" alt="Фото клиента" width="80" height="80"
-                      loading="lazy">
-                  </picture>
-                  <h3>Анна Орлова</h3>
-                  <p>&laquo;Хожу в&nbsp;SuperClub уже больше года. Нравится, что в&nbsp;клубе всегда чисто, тренажеры
-                    обновляют, персонал дружелюбный. Зал просторный, даже в&nbsp;вечернее время нет очередей&raquo;</p>
-                </div>
+      <section class="reviews container">
+        <!-- <div class="reviews__wrapper"> -->
+        <h2>Отзывы</h2>
+        <div class="reviews__slider-wrapper">
+          <div class="swiper reviews__slider">
+            <div class="reviews__swiper-wrapper">
+              <div class="swiper-slide reviews__slide">
+                <picture>
+                  <source srcset="img/reviews.webp 1x, img/reviews@2x.webp 2x" type="image/webp">
+                  <img src="img/reviews.png" srcset="img/reviews@2x.png" alt="Фото клиента" width="80" height="80"
+                    loading="lazy">
+                </picture>
+                <h3>Анна Орлова</h3>
+                <p>&laquo;Хожу в&nbsp;SuperClub уже больше года. Нравится, что в&nbsp;клубе всегда чисто, тренажеры
+                  обновляют, персонал дружелюбный. Зал просторный, даже в&nbsp;вечернее время нет очередей&raquo;</p>
+              </div>
+              <div class="swiper-slide reviews__slide">
+                <picture>
+                  <source srcset="img/reviews.webp 1x, img/reviews@2x.webp 2x" type="image/webp">
+                  <img src="img/reviews.png" srcset="img/reviews@2x.png" alt="Фото клиента" width="80" height="80"
+                    loading="lazy">
+                </picture>
+                <h3>Анна Орлова</h3>
+                <p>&laquo;Хожу в&nbsp;SuperClub уже больше года. Нравится, что в&nbsp;клубе всегда чисто, тренажеры
+                  обновляют, персонал дружелюбный. Зал просторный, даже в&nbsp;вечернее время нет очередей&raquo;</p>
               </div>
             </div>
-            <div class="swiper-button-prev reviews__slider-button-prev"></div>
-            <div class="swiper-button-next reviews__slider-button-next"></div>
           </div>
+          <div class="swiper-button-prev reviews__slider-button-prev"></div>
+          <div class="swiper-button-next reviews__slider-button-next"></div>
         </div>
+        <!-- </div> -->
       </section>
       <section class="contacts">
         <h2 class="visually-hidden">Как с нами связаться</h2>

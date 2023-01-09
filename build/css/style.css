@@ -2141,11 +2141,11 @@ button,
   margin: 0 auto;
 }
 
-.coaches__slide img {
+.coaches__image {
+  width: 100%;
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
-  background-color: #787878;
 }
 
 .coaches__slide-content {
@@ -2543,6 +2543,7 @@ button,
   -ms-flex-pack: justify;
   justify-content: space-between;
   margin-bottom: 1px;
+  gap: 30px;
 }
 
 .header__logo {
@@ -2727,6 +2728,8 @@ button,
 
 .reviews__slider-wrapper {
   position: relative;
+  max-width: 680px;
+  margin: 0 auto;
 }
 
 .reviews__slider {
@@ -2781,7 +2784,7 @@ button,
 .reviews__slider-button-prev,
 .reviews__slider-button-next {
   display: none;
-  top: 127px;
+  top: 50%;
   width: 18px;
   height: 34px;
 }
@@ -2793,16 +2796,8 @@ button,
   font-size: 32px;
 }
 
-.reviews__slider-button-prev {
-  left: 242px;
-}
-
 .reviews__slider-button-prev.focus-visible:focus {
   opacity: 0.8;
-}
-
-.reviews__slider-button-next {
-  right: 242px;
 }
 
 .reviews__slider-button-next.focus-visible:focus {
@@ -3303,7 +3298,8 @@ button,
   .coaches {
     margin-top: 101px;
     margin-bottom: 100px;
-    padding: 0 101px;
+    padding: 0 56px;
+    max-width: 678px;
   }
 
   .coaches h2 {
@@ -3322,6 +3318,10 @@ button,
   .coaches__slide {
     width: 268px;
     height: 294px;
+  }
+
+  .coaches__image {
+    max-height: 294px;
   }
 
   .coaches__slide-content h3 {
@@ -3344,11 +3344,11 @@ button,
   }
 
   .coaches__slider-button-prev {
-    left: 44px;
+    left: -4px;
   }
 
   .coaches__slider-button-next {
-    right: 44px;
+    right: -4px;
   }
 
   .contacts {
@@ -3581,6 +3581,7 @@ button,
 
   .reviews__slider-wrapper {
     padding: 0 56px;
+    max-width: 678px;
   }
 
   .reviews__slider {
@@ -3869,6 +3870,7 @@ button,
     margin-top: 64px;
     margin-bottom: 70px;
     padding: 0 47px;
+    max-width: 332px;
   }
 
   .coaches h2 {
@@ -3885,6 +3887,10 @@ button,
   .coaches__slide {
     width: 226px;
     height: 274px;
+  }
+
+  .coaches__image {
+    min-height: 274px;
   }
 
   .coaches__slide-content p {
@@ -4121,6 +4127,7 @@ button,
 
   .reviews__slider-wrapper {
     padding: 0 32px;
+    max-width: 395px;
   }
 
   .reviews__slide {
@@ -4155,7 +4162,7 @@ button,
 
   .reviews__slider-button-prev,
   .reviews__slider-button-next {
-    top: 180px;
+    top: 50%;
     width: 12px;
     height: 21px;
   }
